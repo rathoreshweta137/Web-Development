@@ -1,0 +1,59 @@
+<!--Forms in html , we use form tag , then we use label tag to name the things-->
+<!--after label tag , we use input tag which is special type of tag , it does not contain 
+closing tag . in input we can write text , raido , checkbox-->
+<!--select tag is used to selelct an option , in select tag we will use option tag to add options in our slection-->
+
+<html>
+    <head>
+        <title>Registration forms</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+        <style>
+            form{
+                padding-left: 50px;
+            }
+            h1{
+                padding-left: 50px;
+            }
+            label{
+                margin-top: 20px;
+            }
+            input{
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Student Registration</h1>
+         <form>
+            <label>Student Name:</label>
+            <input type="text"/> <br>
+            
+            <label for="">Student id:</label>
+            <input type="text"/> <br>
+
+            <label>Gender :</label>
+            <input type="radio" name="gender"/>Male
+            <input type="radio" name="gender"/>Female <br>
+
+            <label>Courses :</label>
+            <input type="checkbox"/>Javascript
+            <input type="checkbox"/>Php
+            <input type="checkbox"/>HTML
+            <input type="checkbox"/>Bootstrap  <br> 
+
+            <label>Country :</label>
+            <select>
+                <option>India</option>
+                <option>U.S.A</option>
+                <option>Canada</option>
+                <option>America</option>
+            </select>  <br> <br>
+
+            <button class="btn btn-outline-success">Click to register</button>
+
+
+
+
+         </form>
+    </body>
+</html>
