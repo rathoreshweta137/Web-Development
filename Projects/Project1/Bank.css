@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+}
+.x{
+    text-align: center;
+    font-size: 35px;
+}
+.y{
+    text-align: center;
+    font-size: 25px;
+}
+.z{
+    text-align: right;
+    font-size: 25px;
+}
+p{
+    text-align: right;
+}
+
+input{
+    margin-top: 10px;
+}
+label{
+    margin-top: 10px;
+}

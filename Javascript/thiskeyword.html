@@ -1,0 +1,20 @@
+<!--get address is used to declare a function and this is used to connect value of key to a function-->
+
+
+<html>
+    <head><title>function</title></head>
+    <body>
+        <script>
+            var student={
+                'name' : 'shweta',
+                'age' : 18,
+
+                getaddress : function()
+                {
+                   return 'getaddress is executed by '+this.name;
+                }
+            } 
+                 document.write(student.getaddress())
+        </script>
+    </body>
+</html>

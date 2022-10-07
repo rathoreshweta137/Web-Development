@@ -1,0 +1,187 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+    
+}
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+h1{
+    font-family: "Montserrat";
+    font: weight 900px;
+    font-size:large;
+    line-height: 1.5;
+    
+}
+
+.navbar-brand{
+    font-family: "Montserrat";
+    font-weight: bold;
+
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-item{
+    padding: 0px 18px;
+}
+
+.navbar-link{
+    font-weight: 400;
+}
+
+.Download{
+    margin: 5% 3% 5% 0%
+}
+.timage{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    
+    
+}
+
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    
+   
+    
+   
+}
+
+.featurebox{
+    text-align: center;
+    margin-top: 5%;
+    padding: 4.5%;
+}
+
+h3{
+    font-family: "Montserrat";
+}
+p{
+    color: gray;
+    font-weight: 500;
+    
+}
+
+.icon {
+    margin-bottom: 1rem;
+    color: #ef8f72;
+}
+
+/* When we hover over the icon it's color get's changed, we are using extra hover class to do so*/
+.icon:hover{
+    color: #ff4c68 ;
+}
+
+/*Testimonial section*/
+
+#testimonials{
+    background-color:#ef8f72 ;
+    text-align: center;
+   
+    color: white;
+    
+    
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight : 200;
+    
+}
+.testimonial-text{
+    font-family: "Montserrat"
+    
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/*press section*/
+
+#press{
+    background-color:#ef8f72 ;
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+
+.image{
+     width: 15%;
+     margin: 20px 20px 50px;
+}
+
+
+
+/*Pircing section*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 2% 3%;
+}
+
+/*To make our webdiste more responsive using CSS media query point breakpoints mqb */
+
+@media (max-width:998px) {
+    .timage{
+        position: static;
+        transform: rotate(0);
+        width: 400px;
+    }
+}
+
+@media (max-width:998px) {
+    #title{
+        text-align: center;
+    }
+}
+
+/* call to action section*/
+
+#cta{
+    background-color: #ff4c68;
+    padding: 3% 5% 6%;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat";
+}
+
+#op{
+    margin-bottom: 200px;
+    font-size: 3.5rem;
+    font-family: "Montserrat";
+    
+}
+
+/*Footer section*/
+
+#footer{
+    background-color: white;
+    padding: 3% 5% 10%;
+    text-align: center;
+}
+
+.newimg{
+    margin: 10px;
+}

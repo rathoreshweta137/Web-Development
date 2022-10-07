@@ -1,0 +1,1 @@
+document.write('Dear Shweta , you are offered to do internship in microsoft')

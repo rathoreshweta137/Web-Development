@@ -1,0 +1,33 @@
+.x{
+    background-color: white;
+    border: 2px solid white;
+    margin-left: 2cm;
+    margin-right:2cm ;
+    padding-left: 0.5cm;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+body{
+    background-color:#050914;
+}
+
+img{
+    margin-left: 2cm;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.y{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+p{
+    color: white;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    font-size: 20px;
+}

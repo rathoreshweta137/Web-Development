@@ -1,0 +1,24 @@
+/*sirf laptop screen par color black rahega , jese hi screen 900 se choti hogi it will turn to blue , jb tk condn satisfy nhi 
+hogi tb tk black rhega , jesa hi condition unsatisfy then it's color turn into blue */
+
+@media  (max-width:900px) {
+    h1{
+        color: blue;
+    }
+}
+
+h1{
+    font-style:oblique;
+    font-size: 10px;
+}
+
+@media (max-width:400px) {
+    h1{
+        font-size: 100px;
+    }
+}
+
+
+/*@media (min-width:900px) and (max-width:1000px) {
+    font-size: 1000px;
+}*/ 
